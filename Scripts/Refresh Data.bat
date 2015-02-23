@@ -1,0 +1,2 @@
+dtexec /f "../ASP.NET Membership Tools\bin\Refresh Membership.dtsx" /conn "\"Source\"";"\"Data Source=source_server;Initial Catalog=source_database;Integrated Security=SSPI;\"" /conn "\"Target\"";"\"Data Source=target_server;Initial Catalog=target_database;Integrated Security=SSPI;\"" /reporting W
+pause
